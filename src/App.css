@@ -1,0 +1,75 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+  
+
+
+.App-link {
+  color: #61dafb;
+}
+
+  .Container{
+    position: absolute;
+    min-width: 500px;
+    min-height: 992px;
+    left: 650%;
+    
+  }
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  .Container{
+    width: 900%;
+    position: static;
+    float: right;
+    min-height: 700%;
+  }
+
+  .Sidenav{
+    position:fixed;
+    height: 100%;
+    width:12%;
+    background-color: rgb(1, 14, 14);
+    
+  }
+  .Sidenav :hover {
+    color: #f1f1f1;
+  }
+
+  .topnav{
+    position:top;
+    height:30%;
+    width:10%;
+    float:right;
+
+  }
+  
+  .Container{
+    height: 70%;
+    width:85%;
+    position: right;
+    
+  }
+  
+  
+ 
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
